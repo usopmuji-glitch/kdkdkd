@@ -4,7 +4,7 @@ FROM php:8.2-cli
 WORKDIR /app
 
 # Copia el código
-COPY . /app
+COPY . /app 
 
 # Instala composer si no lo tienes
 RUN php -r "copy('https://getcomposer.org/installer','composer-setup.php');" \
