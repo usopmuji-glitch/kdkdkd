@@ -10,7 +10,7 @@ COPY . /app
 RUN php -r "copy('https://getcomposer.org/installer','composer-setup.php');" \
  && php composer-setup.php --install-dir=/usr/local/bin --filename=composer \
  && php -r "unlink('composer-setup.php');"
-
+ 
 # Instala dependencias PHP (si composer.json existe)
 RUN if [ -f composer.json ]; then composer install --no-dev --prefer-dist --no-interaction; fi
 
